@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1280px;
+    /* height: 100vh; */
+    margin: 0 auto;
+}
+
+header {
+    width: 1280px;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    left: 120px;
+    background-color: #FFFFFF;
+}
+
+header nav {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 19px;
+    margin: 0 auto;
+}
+
+header nav ul {
+    width: 687.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 17px 0 15px;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3C4043;
+}
+
+header nav ul li a:hover {
+    color: rgb(25, 103, 210);
+}
+
+header nav .nav_menu_icons {
+    width: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .nav_menu_icons button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+header nav .nav_menu_icons button img {
+    width: 20px;
+    height: 20px;
+    color: rgb(95,99,104);
+}
+
+.first-screen .container {
+    height: 600px;
+    background-image: url(../gallery/images/IMAGE.png);
+    border-radius: 28px;
+    display: flex;
+    margin-top: 56px;
+    
+}
+
+.first-screen .container h1 {
+    width: 500px;
+    color: #3C4043;
+    font-weight: 700px;
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: -2px;
+    margin: 164px 651px 0 129px;
+}
+
+.first-screen .container article {
+    width: 356px;
+    margin: 22px 795px 0 129px;
+}
+
+.first-screen .container article .description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C4043;
+}
+
+.first-screen .container article .first_screen_href-btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.first-screen .container article .first_screen_href-btns a {
+    text-decoration: none;
+    padding: 8px 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C4043;
+    border: 2px solid rgb(95, 99, 104);
+    border-radius: 4px; 
+    transition: all 0.2s;
+}
+
+.first-screen .container article .first_screen_href-btns a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 99, 104);
+}
+
+.second-screen .container main h2 {
+    margin: 80px 0 90px;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #3C4043;
+}
+
+.second-screen .container main .cards_items {
+    width: 1280px;
+    padding: 0 129px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-screen .container main .product_card { 
+    width: 183px;
+    height: 298px; 
+    display: block;
+    text-decoration: none;
+}
+
+.second-screen .container main .product_card .card {
+    width: 183px;
+    height: 254px;
+    background: #F8F9FA;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.second-screen .container main .product_card p {
+    width: 24px;
+    padding: 23px 0 0 29px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #1967D2;
+}
+
+
+.second-screen .container main .product_card span{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c433d;
+}
+
+
+
+
+.third-screen .container main {
+    display: flex;
+    background-color: #F8F9FA;
+    border-radius: 28px;
+    margin-top: 240px;
+}
+
+.third-screen .container main .NBA-img img {
+    border-radius: 28px 0 0 28px;
+}
+
+.third-screen .container main .NBA-info {
+    margin-left: 117px;
+}
+
+.third-screen .container main .NBA-info h3 {
+    width: 315px;
+    margin: 194px 184px 0 0;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    color: #3C4043;
+}
+
+
+.third-screen .container main .NBA-info p{
+    width: 389px;
+    margin: 26px 110px 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C4043;
+}
+
+.third-screen .container main .NBA-info .href-btn {
+    width: 83px;
+    margin: 30px 418px 0 0;
+}
+
+.third-screen .container main .NBA-info .href-btn a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1967D2;
+    text-decoration: none;
+
+}
+
+.fourth-screen .container main {
+    margin-top: 80px;
+}
+
+.fourth-screen .container main .our_products, .commercial_info{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+
+}
+
+.fourth-screen .container main .our_products section {
+    width: 395px;
+    height: 692px;
+    margin: 0 auto;
+    background-color: #E9E3DB;
+    border-radius: 28px;
+}
+
+.fourth-screen .container main .our_products section p, .commercial_info section p{
+    width: 203px;
+    text-align: center;
+    margin: 20px auto 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #3C4043;
+}
+
+.fourth-screen .container main .our_products section h3, .commercial_info section h3 {
+    width: 298px;
+    text-align: center;
+    margin: 15px auto 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #3C4043;
+}
+
+.fourth-screen .container main .our_products section .href-btn, .commercial_info section .href-btn {
+    width: 125px;
+    margin: 25px auto 0;
+}
+
+.fourth-screen .container main .our_products section .href-btn a, .commercial_info section .href-btn a {
+    text-decoration: none;
+    padding: 0 20px;
+    border: 2px solid #5F6368;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #202124;
+}
+
+.fourth-screen .container main .our_products section .href-btn a:hover, .commercial_info section .href-btn a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 99, 104);
+}
+
+
+.fourth-screen .container main .our_products section img {
+    margin-top: 28px;
+}
+
+.fourth-screen .container main .commercial_info section {
+    width: 604px;
+    height: 703px;
+    margin: 24px auto 0;
+    background-color: #D6E2DB;
+    border-radius: 28px;
+}
+
+.fourth-screen .container main .commercial_info section:nth-child(2) {
+    background-color: #EFDDCD;
+}
+
+.fourth-screen .container main .commercial_info section img {
+    margin-top: 48px;
+    border-radius: 0 0 28px 28px;
+}
+
+.fourth-screen .container main .commercial_info section:nth-child(2) img {
+    margin-top: 50px;
+}
+
+.fifth-screen .container main h2 {
+    width: 331px;
+    margin: 119px auto 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #3C4043;
+}
+
+.fifth-screen .container main .products_category {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 130px;
+    margin-top: 43px;
+}
+
+.fifth-screen .container main .products_category section {
+    width: 237px;
+}
+
+.fifth-screen .container main .products_category section .href-btn {
+    width: 73px;
+    margin: 23px auto 0;
+}
+
+.fifth-screen .container main .products_category section .href-btn a{
+    
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #1967D2;
+}
+
+.fifth-screen .container main .other_our_products {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 122px;
+    padding: 0 24px;
+}
+
+.fifth-screen .container main .other_our_products section {
+    width: 604px;
+    height: 733px;
+    background: #F3F2F1;
+    border-radius: 28px;
+}
+
+.fifth-screen .container main .other_our_products section:nth-child(2) {
+    background-color: #E7EBEE;
+}
+
+.fifth-screen .container main .other_our_products section p {
+    width: 203px;
+    text-align: center;
+    margin: 40px auto 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #3C4043;
+}
+
+.fifth-screen .container main .other_our_products section h3 {
+    width: 298px;
+    text-align: center;
+    margin: 15px auto 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #3C4043;
+}
+
+.fifth-screen .container main .other_our_products section .href-btn {
+    width: 162px;
+    margin: 25px auto 0;
+}
+
+.fifth-screen .container main .other_our_products section .href-btn a {
+    text-decoration: none;
+    padding: 0 20px;
+    border: 2px solid #5F6368;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #202124;
+}
+
+.fifth-screen .container main .other_our_products section .href-btn a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 99, 104);
+}
+
+.fifth-screen .container main .other_our_products section img {
+    margin-top: 48px;
+    border-radius: 0 0 28px 28px;
+}
+
+.fifth-screen .container main .other_our_products section:nth-child(2) img {
+    margin-top: 88px;
+
+}
+
+.sixth-screen .container main {
+    width: 1280px;
+    display: flex;
+    margin-top: 80px;
+    padding: 0 24px;
+}
+
+.sixth-screen .container main aside {
+    width: 392px;
+    margin: 189px 107px 0 129px;
+}
+
+.sixth-screen .container main aside h2 {    
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #3C4043;
+
+}
+
+.sixth-screen .container main aside p {
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C4043;
+}
+
+.sixth-screen .container main aside .href-btn {
+    width: 128px;
+    margin-top: 22px;
+}
+
+.sixth-screen .container main aside .href-btn a {
+    text-decoration: none;
+    border: 2px solid rgb(95, 99, 104);
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C4043;
+}
+
+.sixth-screen .container main aside .href-btn a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 99, 104);
+}
+
+.seventh-screen .container main {
+    width: 1280px;
+    margin-top: 144px;
+}
+
+.seventh-screen .container main article {
+    width: 580px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.seventh-screen .container main article h2 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #3C4043;
+}
+
+.seventh-screen .container main article button {
+    width: 174px;
+    border: 2px solid #5F6368;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #202124;
+    margin-top: 42px;
+    background-color: white;
+}
+
+.seventh-screen .container main article button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 99, 104);
+}
+
+.seventh-screen .container main .info {
+    width: 1181px;
+    margin: 118px auto 0;
+}
+
+.seventh-screen .container main .info p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #3C4043;
+}
+
+footer main {
+    width: 1280px;
+    margin: 118px auto 0;
+}
+
+footer main aside { 
+    display: flex;
+    justify-content: end;
+}
+
+footer main aside section:nth-child(1) {
+    width: 129px;
+    margin-right: 51px;
+}
+footer main aside section:nth-child(2) {
+    width: 114px;
+    margin-right: 146px;
+}
+
+footer main aside section ul {
+    list-style: none;
+}
+
+footer main aside section ul li {
+    margin-bottom: 24px;
+}
+
+
+footer main aside section ul li a{
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3C4043;
+}
+
+footer main .border-bottom {
+    width: 1088px;
+    height: 1px;
+    margin: 0 auto;
+    background: #F2F2F2;
+}
+
+footer main .footer-article {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer main .footer-article .footer-icons-btn {
+    width: 161px;
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0 18px 97px;
+}
+
+footer main .footer-article .footer-icons-btn button {
+    border: none;
+    background-color: white;
+}
+
+footer main .footer-article .footer-nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 16.7px 96px 17px 0;
+}
+
+footer main .footer-article .footer-nav .href-btn:nth-child(1) a{
+    width: 104px;
+    justify-content: space-between;
+}
+
+footer main .footer-article .footer-nav .href-btn a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #423F3F;      
+}
